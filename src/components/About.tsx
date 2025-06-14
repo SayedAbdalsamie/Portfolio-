@@ -14,11 +14,11 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-gray-200 dark:bg-gray-700">
               {/* Replace with your profile image */}
-              <img
-                src="IMG_20240220_223733_239.jpg"
+            <img
+                src="/IMG_20240220_223733_239.jpg"
                 alt="Sayed Mohammed"
                 className="w-full h-full object-cover"
-              />
+           />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary-500 rounded-full opacity-20 blur-2xl" />
           </div>
