@@ -15,7 +15,7 @@ const About = () => {
             <div className="aspect-square rounded-2xl overflow-hidden bg-gray-200 dark:bg-gray-700">
               {/* Replace with your profile image */}
               <img
-                src="/IMG_20240220_223733_239.jpg"
+                src="IMG_20240220_223733_239.jpg"
                 alt="Sayed Mohammed"
                 className="w-full h-full object-cover"
               />
