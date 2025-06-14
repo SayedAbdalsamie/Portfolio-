@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import { SunIcon, MoonIcon } from '@heroicons/react/24/outline'
-import { motion, AnimatePresence } from 'framer-motion'
 
 // Components
 import Navbar from './components/Navbar'
