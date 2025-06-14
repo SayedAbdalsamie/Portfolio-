@@ -24,6 +24,7 @@ const certificates = [
     title: 'Other Certificaties',
     issuer: 'Google Drive',
     link: 'https://drive.google.com/drive/folders/1a2myMJbIRksGZkbbo66QO5rxvlRmjGxa',
+    date: '',
   },
 ]
 
@@ -60,8 +61,7 @@ const Certificates = () => {
                 </a>
                 <div className="mt-1 flex items-center text-sm text-gray-600 dark:text-gray-300">
                   <span>{certificate.issuer}</span>
-                  <span className="mx-2">•</span>
-                  <span>{certificate.date}</span>
+                  {certificate.date && <><span className="mx-2">•</span><span>{certificate.date}</span></>}
                 </div>
               </div>
             </motion.div>
